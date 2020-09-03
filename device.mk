@@ -170,7 +170,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
-    Snap
+    #Snap
 
 # Device settings
 PRODUCT_PACKAGES += \
@@ -196,8 +196,8 @@ PRODUCT_PACKAGES += \
     memtrack.msm8998 \
 
 # Doze
-PRODUCT_PACKAGES += \
-    Doze
+#PRODUCT_PACKAGES += \
+#    Doze
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -212,11 +212,11 @@ PRODUCT_PACKAGES += \
     FxTecPocketMode
 
 # FM Radio
-PRODUCT_PACKAGES += \
-    FM2
+#PRODUCT_PACKAGES += \
+#    FM2
 
-PRODUCT_BOOT_JARS += \
-    qcom.fmradio
+#PRODUCT_BOOT_JARS += \
+#    qcom.fmradio
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
@@ -395,15 +395,15 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
-    libxml2 \
+    #libxml2 \
     libprotobuf-cpp-full
 
 PRODUCT_PACKAGES += \
-    ims-ext-common \
-    telephony-ext
+#    ims-ext-common \
+#    telephony-ext
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+#PRODUCT_BOOT_JARS += \
+#    telephony-ext
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
@@ -484,8 +484,8 @@ PRODUCT_PACKAGES += \
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
-    hostapd \
-    hostapd_cli \
+    #hostapd \
+    #hostapd_cli \
     libqsap_sdk \
     libQWiFiSoftApCfg \
     libwifi-hal-qcom \
