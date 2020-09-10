@@ -170,7 +170,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
-    #Snap
+    Snap
 
 # Device settings
 PRODUCT_PACKAGES += \
@@ -196,8 +196,8 @@ PRODUCT_PACKAGES += \
     memtrack.msm8998 \
 
 # Doze
-#PRODUCT_PACKAGES += \
-#    Doze
+PRODUCT_PACKAGES += \
+    Doze
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -395,12 +395,12 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     librmnetctl \
-    #libxml2 \
+    libxml2 \
     libprotobuf-cpp-full
 
 PRODUCT_PACKAGES += \
-#    ims-ext-common \
-#    telephony-ext
+    ims-ext-common \
+    #telephony-ext
 
 #PRODUCT_BOOT_JARS += \
 #    telephony-ext
@@ -440,11 +440,11 @@ PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
 
 # Update engine
-PRODUCT_PACKAGES += \
-    brillo_update_payload \
-    update_engine \
-    update_engine_sideload \
-    update_verifier
+#PRODUCT_PACKAGES += \
+#    brillo_update_payload \
+#    update_engine \
+#    update_engine_sideload \
+#    update_verifier
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.msm8998 \
